@@ -1,0 +1,32 @@
+{
+  "name": "mocking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/I7axa666/test_cli_mocking.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/I7axa666/test_cli_mocking/issues"
+  },
+  "homepage": "https://github.com/I7axa666/test_cli_mocking#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.2",
+    "@babel/preset-env": "^7.23.2",
+    "eslint-plugin-import": "^2.28.1",
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "core-js": "^3.33.1",
+    "eslint": "^8.51.0",
+    "eslint-config-airbnb-base": "^15.0.0"
+  }
+}
